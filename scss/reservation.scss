@@ -1,0 +1,45 @@
+@import './reset';
+
+#phone{    
+    padding: 3rem;
+    .col-lg-8{
+        margin: 0 auto;
+        text-align: center;
+        padding: 2rem;
+        position: relative;
+        &::before{
+            content: "";
+            width: 2rem;
+            height: 2rem;
+            border-bottom: 2px solid orange;
+            border-left: 2px solid orange;
+            bottom: 0;
+            left: 0;
+            z-index: 0;
+            position: absolute;
+            }
+            &::after{
+                content: "";
+                width: 2rem;
+                height: 2rem;
+                border-top: 2px solid orange;
+                border-right: 2px solid orange;
+                top: 0;
+                right: 0;
+                z-index: 0;
+                position: absolute;
+                }
+        p{
+            font: 700 .75rem 'Lato', sans-serif;
+            letter-spacing: .05rem;
+            text-transform: uppercase;
+            color: #777777;
+            a{
+                font: 700 37.5px 'Playfair Display', serif ;
+                color: #151515;
+                text-decoration: none;
+            }
+        }
+    }
+
+}

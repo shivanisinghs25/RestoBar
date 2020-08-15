@@ -1,0 +1,166 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+}
+
+#abouthero .jumbotron {
+  background-image: url("/dist/img/big4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #cccccc;
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  z-index: 1;
+}
+
+#abouthero .jumbotron::before {
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: grey;
+  opacity: .2;
+  display: block;
+  width: 100%;
+  height: 60vh;
+  position: absolute;
+  z-index: 0;
+}
+
+#abouthero .jumbotron .section_heading {
+  padding: 340px 20px 50px 20px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 4px #000000;
+  color: white;
+  font: 700 2.5rem 'Playfair Display', serif;
+}
+
+.container .row .col h2 {
+  font: 26.25px 'Playfair Display', serif;
+  margin: 40px 0 15px 0;
+  text-align: center;
+}
+
+.container .row .col p {
+  font-size: 15px;
+  color: #777777;
+  text-align: center;
+  margin-bottom: 35px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.team-chef .card {
+  width: 16rem;
+  height: 27rem;
+  margin: 10px 0px 20px 20px;
+  -webkit-box-shadow: 15px 15px 15px grey;
+          box-shadow: 15px 15px 15px grey;
+}
+
+.team-chef .card .card-up {
+  background: #833ab4;
+  background: -webkit-gradient(linear, left top, right top, color-stop(5%, #833ab4), color-stop(52%, #1dc4fd), color-stop(79%, #4574fc));
+  background: linear-gradient(90deg, #833ab4 5%, #1dc4fd 52%, #4574fc 79%);
+  height: 9rem;
+}
+
+.team-chef .card .chef-img {
+  margin: 3rem 3rem;
+  width: 150px;
+  height: 150px;
+}
+
+.team-chef .card .card-body {
+  margin-top: 3rem;
+}
+
+.team-chef .card .card-body h5 {
+  text-align: center;
+  text-transform: uppercase;
+  font: 700 15px 'Playfair Display', serif;
+  letter-spacing: .1rem;
+}
+
+.team-chef .card .card-body p {
+  text-align: center;
+  font-size: 1rem;
+  color: #777777;
+}
+
+.team-chef .card .card-footer {
+  background-color: white;
+  border: none;
+  margin-left: 20%;
+}
+
+.team-chef .card .card-footer a:hover {
+  background-color: #1dc2fd;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+}
+
+.team-chef .card .card-footer i {
+  padding: 10px;
+}
+
+#sec3 .section-img img {
+  width: 100%;
+  height: 499px;
+}
+
+#sec3 .section-heading {
+  margin-top: 10%;
+}
+
+#sec3 .section-heading h5 {
+  margin: 0px 0px 15px;
+  font-size: 18.75px;
+  line-height: 2rem;
+}
+
+#sec3 .section-heading p {
+  font-size: 15px;
+  line-height: 1.5rem;
+  color: #777777;
+  margin: 0px 0px 15px;
+}
+
+#sec3 .section-heading button {
+  background-color: transparent;
+  border: 1px solid orange;
+  padding: 15px 30px;
+}
+
+#sec3 .section-heading button:hover {
+  background-color: orange;
+  color: white;
+}
+
+#sec3 .section-heading button a {
+  font: 600 12px 'Lato', sans-serif;
+  text-transform: uppercase;
+  color: #151515;
+  text-decoration: none;
+}
+/*# sourceMappingURL=about.css.map */

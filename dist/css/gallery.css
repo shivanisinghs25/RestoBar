@@ -1,0 +1,89 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+}
+
+.carousel {
+  background: #EEE;
+  /* white circles */
+  /* icon color */
+}
+
+.carousel .carousel-cell {
+  width: 100%;
+  height: auto;
+  margin-right: 10px;
+  position: relative;
+}
+
+.carousel .carousel-cell .img-info {
+  font: 400 1.3rem 'Playfair Display', serif;
+  color: #ffffff;
+  top: 80%;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  position: absolute;
+}
+
+@media screen and (min-width: 990px) {
+  .carousel .carousel-cell .img-info {
+    margin-left: 20%;
+    top: 90%;
+  }
+}
+
+.carousel .dot {
+  width: 12px;
+  height: 12px;
+  margin: 0px 0px 0px 3px;
+  background-color: #777777;
+  /* fill-in selected dot */
+}
+
+.carousel .dot.is-selected {
+  background: orange;
+}
+
+.carousel .flickity-button-icon {
+  fill: #6d6d6d;
+}
+
+#newsletter {
+  background-color: #f0f0f0;
+  padding: 90px 0px;
+}
+
+#newsletter input {
+  font: 18px 'Playfair Display', serif;
+  padding: 10px .5rem 10px 20px;
+  width: 100%;
+  background-color: white;
+  border: none;
+}
+
+#newsletter button {
+  background-color: transparent;
+  border: 1px solid orange;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-size: 11.25px;
+  font-weight: 700;
+}
+
+#newsletter button:hover {
+  background-color: orange;
+  color: white;
+}
+/*# sourceMappingURL=gallery.css.map */

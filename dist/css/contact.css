@@ -1,0 +1,85 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+}
+
+/* contact section */
+#section-contact .section-contact-info .section-contact-item .section-contact-item-heading {
+  text-transform: uppercase;
+  font: 900 .7rem 'Lato', sans-serif;
+  letter-spacing: .05rem;
+}
+
+#section-contact .section-contact-info .section-contact-item .section-contact-item-content {
+  color: #777777;
+  text-decoration: none;
+  font: 400 1rem 'Playfair Display', serif;
+  line-height: 1.7rem;
+}
+
+#section-contact .section-contact-info .section-contact-item .section-contact-item-content a {
+  color: orange;
+  text-decoration: none;
+}
+
+#section-contact .section-contact-info .section-contact-item .section-contact-item-content-soical {
+  margin-bottom: 8%;
+}
+
+#section-contact .section-contact-info .section-contact-item .section-contact-item-content-soical li {
+  list-style-type: none;
+  display: inline;
+}
+
+#section-contact .section-contact-info .section-contact-item .section-contact-item-content-soical li a {
+  color: white;
+  background-color: orange;
+  padding: 5px 10px;
+}
+
+#section-contact form::before {
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  right: 75%;
+  bottom: 25%;
+  content: "";
+  background: url(/dist/img/dot6.png) repeat;
+  background-size: 200% auto;
+  opacity: .07;
+  z-index: -1;
+}
+
+#section-contact form .form-group input, #section-contact form .form-group textarea {
+  border-radius: 0;
+  font: .9rem 'Playfair Display', serif;
+  padding: 20px 30px;
+}
+
+#section-contact form button {
+  background-color: transparent;
+  border: 1px solid orange;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-size: 11.25px;
+  font-weight: 700;
+  color: #151515;
+}
+
+#section-contact form button:hover {
+  background-color: orange;
+  color: white;
+}
+/*# sourceMappingURL=contact.css.map */
